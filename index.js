@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json({ limit: '50mb' }));
 
 app.get('/', async (req, res) => {
-  res.send('Hello from DALL-EE');
+  res.send('Hello from DALL-E');
 });
 
 const startServer = async () => {
